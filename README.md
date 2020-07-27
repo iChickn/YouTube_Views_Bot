@@ -45,19 +45,11 @@ sudo pacman install -Sy python3
 sudo pacman install -Sy git
 ```
 
-## Install Tor, git and Python3 on Termux
-```sh
-pkg install tor -y
-```
-```sh
-pkg install python3 -y
-```
-```sh
-pkg install git -y
-```
-
 ## Installation on Windows OS
-You can install Ubuntu if you have Windows 10. Just type `bash` in Windows Command Prompt/PowerShell. It will ask you to install Ubuntu. For more help you can ask in my Telegram Group(http://t.me/linux_repo). Now enter the same command for Ubuntu.
+This tool was coded for Linux(Like: Debian). So you can install Virtual Machine in your Windows OS and install ubuntu on it. And enter the same command for Ubuntu. For more help you can ask in my Telegram Group(http://t.me/linux_repo).
+
+## Installation on Termux:
+This tool was coded for Linux(Like: Debian). So you can use my Deskify tool to install Ubuntu or Debian with desktop environment. And enter the same command for Ubuntu. For more help you can ask in my Telegram Group(http://t.me/linux-repo).
 
 ## Requirements:
 This tool depends on python3 and uses some libraries. In order to install them, you can use `pip3` command. To update the tool I made a `update.sh` script.
