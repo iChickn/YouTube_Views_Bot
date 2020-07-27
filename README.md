@@ -54,12 +54,12 @@ This tool was coded for Linux(Like: Debian). So you can use my Deskify tool to i
 ## Requirements:
 This tool depends on python3 and uses some libraries. In order to install them, you can use `pip3` command. To update the tool I made a `update.sh` script.
 
+- Chromium Browser
 - PIP packages:
 	- requests>=2.22.0
 	- selenium==3.141.0
 	- urllib3>=1.25.8
 	- colorama
-
 - Commands to download and setup:
 ```sh
 git clone https://github.com/AbirHasan2005/YouTube_Views_Bot
