@@ -1,15 +1,23 @@
-# YouTube_Views_Bot v1.2
-Increase views of your YouTube videos by this bot. Most accurate views. A bot scripted in python codes. Easy to use. For more join Telegram Group: http://t.me/linux_repo
+# YouTube_Views_Bot v1.3
+Increase views of your YouTube videos by this bot. Most accurate views. A bot scripted in python codes. Easy to use. Must join Telegram Group: http://t.me/linux_repo
 
 **NOTE:** If you want to use Tor, be aware that YouTube can flag your video and delete the views after a while.
 
 ---
 
+## Compatible with:
+- Mac OS X
+- Ubuntu Linux
+- Debian Linux
+- Arch Linux
+- Kali Linux
 
-## Optional
-If you want, you can install tor and privoxy, once selenium does not work very well with socks proxy.
+## Important Words:
+**If you want, you can install tor and privoxy. One thing, selenium does not work very well with socks proxy. Not desgined for Termux/Windows !**
 
-## Install Tor, git and Python3 on Mac OS X
+### Termux & Windows users ask in [Telegram Group](http://t.me/linux_repo) for using this in Android.
+
+## Install Tor, git and Python3 on Mac OS X:
 ```sh
 brew install tor
 ```
@@ -20,10 +28,7 @@ brew install python3
 brew install git
 ```
 
-## Install Tor, git and Python3 on Debian/Ubuntu
-```sh
-sudo apt-get update
-```
+## Install Tor, git and Python3 on Debian/Ubuntu:
 ```sh
 sudo apt-get install tor
 ```
@@ -34,7 +39,7 @@ sudo apt-get install python3
 sudo apt-get install git
 ```
 
-## Install Tor, git and Python3 on ArchLinux
+## Install Tor, git and Python3 on ArchLinux:
 ```sh
 sudo pacman install -Sy tor
 ```
@@ -45,21 +50,15 @@ sudo pacman install -Sy python3
 sudo pacman install -Sy git
 ```
 
-## Installation on Windows OS
-This tool was coded for Linux(Like: Debian). So you can install Virtual Machine in your Windows OS and install ubuntu on it. And enter the same command for Ubuntu. For more help you can ask in my Telegram Group(http://t.me/linux_repo).
-
-## Installation on Termux:
-This tool was coded for Linux(Like: Debian). So you can use my Deskify tool to install Ubuntu or Debian with desktop environment. And enter the same command for Ubuntu. For more help you can ask in my Telegram Group(http://t.me/linux-repo).
-
 ## Requirements:
-This tool depends on python3 and uses some libraries. In order to install them, you can use `pip3` command. To update the tool I made a `update.sh` script.
+This tool needs a Linux environment. This tool depends on python3 and uses some libraries. In order to install them, you can use `pip3` command. To update the tool I made a `update.sh` script.
 
-- Chromium Browser
 - PIP packages:
-	- requests>=2.22.0
-	- selenium==3.141.0
-	- urllib3>=1.25.8
+	- requests
+	- selenium
+	- urllib3
 	- colorama
+
 - Commands to download and setup:
 ```sh
 git clone https://github.com/AbirHasan2005/YouTube_Views_Bot
@@ -72,7 +71,7 @@ sudo pip3 install -r requirements.txt
 ```
 
 ## Usage:
-```sh
+```
 python3 bot.py --help
 usage: bot.py [--visits VISITS] [--url URL] [--proxy PROXY] [--enable-tor]
               [-v] [-h]
@@ -80,15 +79,15 @@ usage: bot.py [--visits VISITS] [--url URL] [--proxy PROXY] [--enable-tor]
 Tool to increase YouTube views
 
 Main Arguments:
-  --visits VISITS  amount of visits per video, default: 1
+  --visits VISITS  Amount of visits per video, default: 1
   --url URL        YouTube video url
-  --proxy PROXY    set the proxy server to be used. e.g: 127.0.0.1:8118
-  --enable-tor     enable TOR support (You must have installed TOR at your
+  --proxy PROXY    Set the proxy server to be used. e.g: 127.0.0.1:8118
+  --enable-tor     Enable TOR support (You must have installed TOR at your
                    system)
 
 Optional Arguments:
-  -v, --verbose    show more output
-  -h, --help       show this help message and exit
+  -v, --verbose    Show more output
+  -h, --help       Show this help message and exit
 ```
 
 ## Example
