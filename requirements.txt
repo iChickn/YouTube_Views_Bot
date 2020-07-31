@@ -1,4 +1,4 @@
-requests>=2.22.0
-selenium==3.141.0
-urllib3>=1.25.8
+requests
+selenium
+urllib3
 colorama

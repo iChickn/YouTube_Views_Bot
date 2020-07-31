@@ -1,5 +1,5 @@
-# YouTube_Views_Bot v1.3
-Increase views of your YouTube videos by this bot. Most accurate views. A bot scripted in python codes. Easy to use. Must join Telegram Group: http://t.me/linux_repo
+# YouTube_Views_Bot v1.4
+Increase views of your YouTube videos by this bot. Most accurate views. A bot scripted in python codes. Added [setup.sh](https://github.com/AbirHasan2005/YouTube_Views_Bot/blob/master/setup.sh) script Easy to use. Must join Telegram Group: http://t.me/linux_repo
 
 **NOTE:** If you want to use Tor, be aware that YouTube can flag your video and delete the views after a while.
 
@@ -13,9 +13,9 @@ Increase views of your YouTube videos by this bot. Most accurate views. A bot sc
 - Kali Linux
 
 ## Important Words:
-**If you want, you can install tor and privoxy. One thing, selenium does not work very well with socks proxy. Not desgined for Termux/Windows !**
+**If you want, you can install tor and privoxy. One thing, selenium does not work very well with socks proxy. Must run the setup script. Not desgined for Termux/Windows !**
 
-### Termux & Windows users ask in [Telegram Group](http://t.me/linux_repo) for using this in Android.
+### Termux & Windows users ask in [Telegram Group](http://t.me/linux_repo) for using this.
 
 ## Install Tor, git and Python3 on Mac OS X:
 ```sh
@@ -66,8 +66,15 @@ git clone https://github.com/AbirHasan2005/YouTube_Views_Bot
 ```sh
 cd YouTube_Views_Bot
 ```
+
 ```sh
 sudo pip3 install -r requirements.txt
+```
+
+### Optional:
+Run [setup.sh](https://github.com/AbirHasan2005/YouTube_Views_Bot/blob/master/setup.sh) script to run properly.
+```sh
+bash setup.sh
 ```
 
 ## Usage:
@@ -81,7 +88,7 @@ Tool to increase YouTube views
 Main Arguments:
   --visits VISITS  Amount of visits per video, default: 1
   --url URL        YouTube video url
-  --proxy PROXY    Set the proxy server to be used. e.g: 127.0.0.1:8118
+  --proxy PROXY    Set the proxy server to be used. e.g: 127.0.0.1:8080
   --enable-tor     Enable TOR support (You must have installed TOR at your
                    system)
 
@@ -95,7 +102,7 @@ Optional Arguments:
 python3 bot.py --visits 100 --url https://www.youtube.com/watch?v=IamNOOB --verbose
 ```
 
-### For more help, details, chat and feedback join Telegram Group: http://t.me/linux_repo
+### For more help, details, chat and feedback join [Telegram Group](http://t.me/linux_repo)
 
 ## Follow on:
 ### GitHub: https://github.com/AbirHasan2005
@@ -109,7 +116,7 @@ python3 bot.py --visits 100 --url https://www.youtube.com/watch?v=IamNOOB --verb
 
 ---
 
-## Codes of bot.py
+## Codes from [bot.py](https://github.com/AbirHasan2005/YouTube_Views_Bot/blob/master/bot.py)
 ```python
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
